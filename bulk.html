@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sales</title>
+    <link rel="stylesheet" href="style.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="image/logo-1.png" alt="logo" width="125px"></a>
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="index.html">User</a> </li>
+          <li><a href="Product.html">Product</a> </li>
+          <li><a href="contact.html">Bulk Page</a> </li>
+        </ul>
+      </nav>
+  </div>
+  </div> 
+<!--product.edit-->
+<div class="small-container cart-page">
+  <h2>Bulk Download</h2>
+
+<table>
+  <tr>
+    <th>Filename</th>
+    <th>Description</th>
+    <th>Download</th>
+  </tr>
+  <tr>
+    <td>WEEKLY_FIRST_SALE</td>
+    <td>Weekly – First sale data</td>
+    <td><i class="fa fa-download" aria-hidden="true"></i></td>
+  </tr>
+  <tr>
+    <td>WEEKLY_WHOLESALE</td>
+    <td>Weekly – Wholesale data</td>
+    <td><i class="fa fa-download" aria-hidden="true"></i></td>
+  </tr>
+  <tr>
+    <td>WEEKLY_IMPORT</td>
+    <td>	Weekly – Import data</td>
+    <td><i class="fa fa-download" aria-hidden="true"></i></td>
+  </tr>
+  <tr>
+    <td>WEEKLY_RETAIL</td>
+    <td>Weekly – Retail data</td>
+    <td><i class="fa fa-download" aria-hidden="true"></i></td>
+  </tr>
+  <tr>
+    <td>YEARLY_LANDINGS</td>
+    <td>Yearly – Landings data</td>
+    <td><i class="fa fa-download" aria-hidden="true"></i></td>
+  </tr>
+  <tr>
+    <td>YEARLY_AQUACULTURE</td>
+    <td>Yearly – Aquaculture data</td>
+    <td><i class="fa fa-download" aria-hidden="true"></i></td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+  <table>
+    <h2>Bulk Upload Page:</h2>
+        <tr>
+          <td>
+            <div class="cart-info">
+                <small>Title:</small> <br>
+                <input type="text" value="">
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+                <small>Space Delimiter:</small> <br>
+                <input type="text" value="~">
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+                <small>Group Delimiter:</small> <br>
+                <input type="text" value="|">
+              </div>
+            </div>
+          </td>
+        </tr>
+    <tr>
+      <td>
+        <div class="cart-info">
+            <small>CSV Data:</small> <br>
+            <input type="text" value="">
+            <br>
+             <a href="" class="btn">Upload</a>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!--footer-->
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download our Apps</h3>
+        <p>Download App for Adroid and ios mobile phone</p>
+        <div class="app-logo">
+          <img src="image/play-store.png" alt="">
+          <img src="image/app-store.png" alt="">
+        </div>
+      </div>
+      <div class="footer-col-2">
+       <img src="image/logo-1.png" alt="">
+       <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Gaming Accessible to the Many.</p>
+     </div>
+     <div class="footer-col-3">
+       <h3>Useful links</h3>
+       <ul>
+         <li>Coupons</li>
+         <li>Blog Post</li>
+         <li>Return Policy</li>
+         <li>Join Affiliate</li>
+       </ul>
+     </div>
+     <div class="footer-col-3">
+       <h3>Follow us</h3>
+       <ul>
+         <li>Facebook</li>
+         <li>Twitter</li>
+         <li>Instagram</li>
+         <li>Youtube</li>
+       </ul>
+     </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2020 - Game And Console</p>
+  </div>
+</div>
+
+<!--js for toggle menu-->
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+  MenuItems.style.maxHeight = "0px";
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+     MenuItems.style.maxHeight = "200px";
+    }
+    else{
+     MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+
+</body>
+</html>
+  
+</body>
+</html>
